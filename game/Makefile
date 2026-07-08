@@ -6,7 +6,7 @@ GAME = typing
 #GAME = credits
 
 CC = gcc
-CFLAGS = -m32 -MMD -Wall -Werror \
+CFLAGS = -m32 -MMD -Wall \
 		 -fno-builtin -fno-omit-frame-pointer -fno-stack-protector \
 		 -I./include -I../include -I$(NEWLIBC_DIR)/include
 LDFLAGS = -melf_i386 #-Ttext=0x800000

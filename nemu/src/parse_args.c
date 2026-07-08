@@ -20,7 +20,7 @@ static bool flag_kernel = false;
 static bool flag_game = false;
 static bool flag_testcase = false;
 
-static bool main_arg_expr_score()
+static bool main_arg_expr_score(char *noUse)
 {
 	flag_score_expr = true;
 	return true;
